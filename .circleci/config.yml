@@ -12,7 +12,6 @@ jobs:
       - checkout
       #Step 2: create virtualenv env and install dependencies
       - run: 
-        name: install dependencies
         command: python3 -m venv venv
       - run:
         command: venv/bin/activate
