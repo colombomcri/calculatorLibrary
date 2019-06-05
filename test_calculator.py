@@ -12,4 +12,4 @@ class TestCalculator():
 		assert 3 == calculator.subtract(4,1)
 
 	def test_multiplication(self):
-		assert 100 = calculator.multiplication(10,10)
+		assert 100 == calculator.multiplication(10,10)
