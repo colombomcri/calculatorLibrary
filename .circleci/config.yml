@@ -11,12 +11,12 @@ jobs:
       # Step 1: obtain repo from GitHub
       - checkout
       #Step 2: create virtualenv env and install dependencies
-      #- run: 
-        # name: install dependencies
-        # command: |
-        #   python3 -m venv venv
-        #   . venv/bin/activate
-        #   pip install -r requirements.txt
+      - run: 
+        name: install dependencies
+        command: |
+          python3 -m venv venv
+          . venv/bin/activate
+          pip install -r requirements.txt
       # - run:
       #   name: run tests
       #   command: |
