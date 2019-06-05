@@ -13,10 +13,9 @@ jobs:
       #Step 2: create virtualenv env and install dependencies
       - run: 
         name: install dependencies
-        command: |
-          python3 -m venv venv
-          venv/bin/activate
-          pip install -r requirements.txt
+        command: python3 -m venv venv
+        command: venv/bin/activate
+        command: pip install -r requirements.txt
       # - run:
       #   name: run tests
       #   command: |
